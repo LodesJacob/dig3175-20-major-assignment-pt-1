@@ -1,0 +1,49 @@
+@import 'partials/normalize';
+@import 'partials/root';
+@import 'partials/nav';
+@import 'partials/header';
+@import 'partials/content';
+
+.center {
+    text-align: center;
+}
+
+.wrap {
+    max-width: 850px;
+    width: 100%;
+    padding: 1em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    &.thin {
+        line-height: 1em;
+        margin-bottom: 0;
+        padding: 0;
+        padding-bottom: 0.15em;
+    }
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.5em;
+    color: $primary-2;
+    background-color: $background-2;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+}
+
+article {
+    background-color: white;
+    padding: 2em;
+}
+
+footer {
+    color: $background;
+    background-color: $primary;
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+}

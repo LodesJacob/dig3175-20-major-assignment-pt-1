@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    article {
+        width: 100%;
+        max-width: 850px;
+        margin-right: 1em;
+    }
+
+    .ads {
+        > div {
+            position: sticky;
+            top: 1em;
+        }
+    }
+}

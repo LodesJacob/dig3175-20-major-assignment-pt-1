@@ -1,0 +1,17 @@
+nav {
+    padding: 0.5em;
+
+    .wrap {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+
+        a {
+            color: $primary;
+        }
+    }
+}
